@@ -95,7 +95,7 @@ gautam's new position: 43
 Player name: mukesh Player position: 4 hasStarted: true
 Dice value: 6
 mukesh's new position: 10
-**Player got ladder from 10 to 40**
+<b>Player got ladder from 10 to 40</b>
 Player name: gautam Player position: 43 hasStarted: true
 Dice value: 3
 gautam's new position: 46
@@ -141,7 +141,7 @@ mukesh's new position: 59
 Player name: gautam Player position: 70 hasStarted: true
 Dice value: 5
 gautam's new position: 75
-**Player bitten by snake from 75 to 65**
+<b>Player bitten by snake from 75 to 65</b>
 Player name: mukesh Player position: 59 hasStarted: true
 Dice value: 6
 mukesh's new position: 65
