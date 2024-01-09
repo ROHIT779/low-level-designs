@@ -12,7 +12,8 @@ SnakesAndLaddersValidator(validateSnakes(), validateLadders())
 **Workflow:**
 SnakesAndLaddersDriver(main) calls SnakesAndLaddersExecutor(execute()) calls SnakesAndLaddersValidator(validateSnakes() and validateLadders()) and if validation is passed executor calls SnakesAndLaddersOperation(playGame())  
 
-**Sample Run:**  
+**Sample Run:**
+<pre>  
 Enter number of snakes on the board...
 2
 Enter 0-th snake's head and tail(head > tail)...
@@ -194,3 +195,4 @@ Winner of the Game is: gautam Congratulations!!!
 -------Final Score-------
 gautam: 100
 mukesh: 81
+</pre>
