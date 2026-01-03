@@ -1,0 +1,3 @@
+sudo docker pull amazoncorretto:17
+sudo docker build -t my-java-app .
+sudo docker run -p 8081:8081 my-java-app
