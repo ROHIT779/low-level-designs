@@ -3,10 +3,10 @@ package lld.factory_method;
 public class Client {
 
     public static void main(String[] args){
-        String jsonContent = "{\"message\": \"Hi, this is Rohit\"}";
-        String textContent = "Hi, this is Rohit";
-        printMessage(new JSONMessageCreator(), jsonContent);
-        printMessage(new TextMessageCreator(), textContent);
+        String message = "The Statue of Unity of India is the world's tallest statue, " +
+                "standing at 182 meters(597 feet).";
+        printMessage(new JSONMessageCreator(), message);
+        printMessage(new TextMessageCreator(), message);
     }
 
     private static void printMessage(MessageCreator creator, String content){
