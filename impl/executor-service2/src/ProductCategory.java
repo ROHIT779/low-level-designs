@@ -1,0 +1,10 @@
+public enum ProductCategory {
+    CLOTHING,
+    HOME_ESSENTIALS,
+    SPORTS_AND_FITNESS,
+    KITCHEN,
+    AUTOMOBILE,
+    ELECTRONICS,
+    APPLIANCES,
+    OTHERS
+}
